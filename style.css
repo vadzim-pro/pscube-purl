@@ -1,0 +1,856 @@
+h1 {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 28px !important;
+    font-weight: 400;
+    text-align: center;
+	color: rgb(225, 18, 77) !important;
+	margin-bottom: -7px;
+	margin-top: 10px;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+	font-family: "Open Sans";
+    font-weight: 400;
+    color: #666;
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p  {
+    font-family: "Open Sans";
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+
+ul {
+	display: inline;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+	float: left;
+	font-size: 15pt;
+	padding-right: 4px;
+    margin-left: 17px;
+    font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+li {
+	width: 100%;
+    margin: inherit;
+	text-align: center;
+}
+
+}
+
+input {
+	padding: .6180469716em;
+    background-color: #f2f2f2;
+    color: #43454b;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.125);
+    border: 0;
+    font-size: 11pt;
+    text-align: left;
+    color: #e01862;
+    font-family: Arial, Helvetica, sans-serif !important;
+    margin-bottom: 1px;
+    width: 101%;
+    height: 55px;
+}
+
+
+
+input[type="text"], input[type="email"]{
+	padding: .6180469716em;
+    background-color: #f2f2f2;
+    color: #43454b;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.125);
+    border: 0;
+    font-size: 11pt;
+    text-align: left;
+    color: #e01862;
+    font-family: Arial, Helvetica, sans-serif !important;
+    margin-bottom: 9px;
+    width: 101%;
+    height: 55px;
+}
+
+@media screen and (max-width: 768px) {
+input[type="text"] {
+	/*width: 95%;*/ 
+}
+
+}
+
+.main {
+	width: 770px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+.main {
+	width: 100%;
+	margin-top: -42px;
+}
+
+}
+
+.header {
+	position: fixed;
+    margin-top: -102px;
+    padding-top: 19px;
+    background: white;
+    width: inherit;
+}
+
+@media screen and (max-width: 768px) {
+.header {
+	text-align: center;
+    padding-bottom: 0px;
+    height: 64px;
+	margin-top: -78px;
+	position: absolute;
+}
+
+}
+
+.header a img {
+
+}
+
+
+@media screen and (max-width: 768px) {
+.header a img {
+	float: none;
+	text-align: center;
+    display: block;
+    margin: 0 auto;
+	position: absolute;
+	top: 0px;
+	width: 27px;
+    height: 27px;
+	margin-left: 11px;
+    margin-top: 9px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+.header a {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+	padding-right: 10px;
+}
+
+}
+
+.header h3 {
+	float: right;
+}
+
+@media screen and (max-width: 768px) {
+.header h3 {
+	float: none;
+}
+
+}
+
+.school {
+	float: right;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+.school {
+	width: 100%;
+	margin-top: 5px;
+	display: none;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+.school img {
+	float: none !important;
+}
+
+}
+
+
+.one {
+	margin-bottom: 30px;
+	padding-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+.one {
+	float: none;
+	margin-left: 5px;
+    margin-right: 5px;
+	padding-top: 0px;
+}
+
+}
+
+.two {
+	width: 100%;
+    height: 100%;
+}
+
+.photo1 {
+	float: left;
+	width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+.photo1 {
+	float: none;
+	width: 100%;
+}
+
+}
+
+.contactform1 {
+	float: right;
+    width: 48%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+
+@media screen and (max-width: 768px) {
+.contactform1 {
+	float: none;
+	width: 99%;
+}
+
+}
+
+.contactform1 p {
+	text-align: left;
+    color: #e01862;
+    font-size: 21pt;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+@media screen and (max-width: 768px) {
+.contactform1 p {
+	text-align: center;
+	margin-top: 21px;
+}
+
+}
+
+.contactform1 input#submit {
+	background-color: rgb(225, 18, 77); 
+	border: none; 
+	cursor: pointer; 
+	font-size: 20pt; 
+	color: white; 
+	height: 100%; 
+	width: 101.5%; 
+	padding: 0.9em 1.41575em; 
+	font-weight: 600;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+.contactform1 input#submit {
+	width: 100%; 
+}
+
+}
+
+
+.three {
+    float: left;
+}
+
+.three-1 {
+    float: left;
+}
+
+.three-1 h2 {
+    color: #e01862;
+    margin: 22px 0 32px 0px;
+    font-family: 'Scada', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+.three-1 h2 {
+	color: #e01862; 
+	font-size: 25pt; 
+	font-weight: 600; 
+	margin: 15px 0 23px 0px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+}
+
+.vadzim {
+	height: 316%;
+    margin-top: 28px;
+    vertical-align: middle;
+}
+
+
+.vadzim p {
+    margin-left: 410px;
+}
+
+
+@media screen and (max-width: 768px) {
+.vadzim {
+	margin-left: 10px;
+    margin-right: 10px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+.vadzim p {
+	margin-left: 0px;
+}
+
+}
+
+
+.three h2 {
+	color: #e01862; 
+	margin: 35px 0 32px 0px;
+	font-family: 'Scada', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+.three h2 {
+	color: #e01862; 
+	font-size: 25pt; 
+	font-weight: 600; 
+	margin: 15px 0 23px 0px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+}
+
+.three h4 {
+	font-size: 17pt; 
+	font-weight: 600; 
+	margin-left: 398px; 
+	font-family: 'Open Sans', sans-serif;     
+	margin-top: -10px; text-align: center; 
+	line-height: 38px; 
+	font-weight: 400; 
+	color: #666;
+}
+
+@media screen and (max-width: 768px) {
+.three h4 {
+	margin-left: 0px; 
+}
+
+}
+
+.photo2 {
+	width: 50%;
+    float: left;
+	margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+.photo2 {
+	float: none;
+	width: 97%;
+	margin-right: 0px;
+	margin-left: 6px;
+}
+
+}
+
+.photo2 img {
+	width: 100%;
+    height: 100%;
+}
+
+.four {
+	height: 100%;
+	width: 100%;
+	float: left;
+}
+
+.four h2 {
+	color: #e01862;
+	margin: 21px 0 35px 0px;
+	font-family: 'Scada', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+.four h2 {
+	margin-top: 12px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+}
+
+.ivan {
+	height: 316%;
+    vertical-align: middle;
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 768px) {
+.ivan {
+	margin-left: 10px;
+    margin-right: 10px;
+}
+
+}
+
+.ivan p {
+    margin-left: 410px;
+}
+
+
+@media screen and (max-width: 768px) {
+.ivan p {
+	margin-left: 0px;
+}
+
+}
+
+.four h4 {
+	font-size: 20pt; 
+	font-weight: 600;     
+	margin-left: 398px;
+	text-align: center; 
+	margin-top: -10px; 
+	font-family: 'Open Sans', sans-serif; 
+	margin-bottom: 98px; 
+	line-height: 38px; 
+	font-weight: 400; 
+	color: #666;
+}
+
+@media screen and (max-width: 768px) {
+.four h4 {
+	margin-left: 0px; 
+}
+
+}
+
+
+.five {
+	height: 100%;
+    width: 100%;
+    float: left;
+}
+
+.five h2 {
+	color: #e01862;
+	margin: 19px 0 33px 0px;
+	font-family: 'Scada', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+.five h2 {
+	text-align: center;
+    margin-top: 4px;
+    margin-bottom: 26px;
+}
+
+}
+
+.lukashenko {
+	height: 316%;
+    vertical-align: middle;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+.lukashenko {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+}
+
+.lukashenko p {
+    margin-left: 393px;
+}
+
+
+@media screen and (max-width: 768px) {
+.lukashenko p {
+	margin-left: 0px;
+}
+
+}
+
+.five h4 {
+font-size: 20pt;
+ font-weight: 600;
+ margin-left: 398px;
+ text-align: center;
+ margin-top: 9px; font-family:
+ 'Open Sans', sans-serif;
+ line-height: 38px;
+ font-weight: 400;
+ color: #666;
+}
+
+@media screen and (max-width: 768px) {
+.five h4 {
+	margin-left: 6px;
+    margin-right: 6px;
+}
+
+}
+
+.contactform2 {
+    float: left;
+    width: 48%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+.contactform2 {
+	width: 99%;
+	float: none;
+}
+
+}
+
+.contactform2 input#submit {
+	background-color: rgb(225, 18, 77); 
+	border: none; 
+	cursor: pointer; 
+	font-size: 20pt; 
+	color: white; 
+	height: 100%; 
+	width: 101.5%; 
+	padding: 0.9em 1.41575em; 
+	font-weight: 600;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+.contactform2 input#submit {
+	width: 100%;
+}
+
+}
+
+.six {
+	float: left;
+	height: 100%;
+	width: 100%;
+}
+
+.six h2 {
+	color: #e01862;
+    margin: 23px 0 33px 0px;
+    text-align: center;
+    font-family: 'Scada', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+.six h2 {
+	margin-top: 9px;
+    margin-bottom: 27px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+.six iframe {
+	width: 100%;
+}
+
+}
+
+.seven {
+	float: left;
+	height: 100%;
+	width: 100%;
+}
+
+.seven h2 {
+	color: #e01862;
+    margin: 12px 0 31px 0px;
+    text-align: center;
+    font-family: 'Scada', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+.seven h2 {
+	margin-top: 14px;
+    margin-bottom: 29px;
+    padding-left: 2px;
+    margin-right: 2px;
+}
+
+}
+
+.tag {
+	width: 86%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+.tag {
+	width: 100%;
+	margin-bottom: 29px;
+}
+
+}
+
+.feedback {
+	float: left;
+    width: 100%;
+    height: 100%;
+	margin-bottom: 14px;
+}
+
+.feedback h2 {
+	color: #e01862;
+    margin: 5px 0 27px 0px;
+    text-align: center;
+    font-family: 'Scada', sans-serif;
+}
+
+.comment {
+	width: 48%;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+	color: #666;
+}
+
+@media screen and (max-width: 768px) {
+.comment {
+	width: 100%;
+	margin-right: 0px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+.comment p {
+	padding: 0 10px 0px 10px;
+}
+
+}
+
+.comment2 {
+	width: 48%;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+	color: #666;
+}
+
+@media screen and (max-width: 768px) {
+.comment2 {
+	width: 100%;
+	margin-left: 0px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+.comment2 p {
+	padding: 0 10px 0px 10px;
+}
+
+}
+
+.lastbutton {
+	width: 99%;
+    height: 100%;
+    text-align: center;
+	float: left;
+}
+
+.lastbutton a input {
+	background-color: rgb(225, 18, 77);
+    border: none;
+    cursor: pointer;
+    font-size: 20pt;
+    color: white;
+    height: 100%;
+    width: 51%;
+    padding: 0.9em 1.41575em;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+.lastbutton a input {
+	width: 98%;
+    margin-right: -4px;
+    margin-bottom: 12px;
+}
+
+}
+
+.bottom {
+	width: 100%;
+    height: 448px;
+    background: lavender;
+	float: left;
+	font-weight: 600;
+    color: rgb(0, 0, 0) !important;
+    font-size: 16px !important;
+    text-align: left;
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+.bottom {
+	text-align: center;
+	display: inline-grid;
+    height: 100%;
+    text-align: center;
+}
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+.bottom p {
+	float: left;
+    text-align: center;
+    width: 100%;
+	padding-left: 4px;
+    padding-right: 4px;
+}
+
+}
+
+.houzz {
+	float: left;
+    margin-right: 10px;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+.contacts {
+	height: 100%;
+	width: 449px;
+	float: left;
+	padding-top: 92px;
+    padding-bottom: 120px;
+	padding-right: 15px;
+}
+
+.contacts p {
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+.contacts {
+    width: 100%;
+	padding-right: 0px;
+	padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+}
+
+.contacts input#submit {
+	background-color: rgb(225, 18, 77); 
+	border: none; 
+	cursor: pointer; 
+	font-size: 20pt; 
+	color: white; 
+	height: 100%; 
+	width: 96.5%;
+	padding: 0.9em 1.41575em; 
+	font-weight: 600;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+.contacts input#submit {
+    width: 96.5%;
+}
+
+}
+
+
+.contacts input {
+    width: 97%;
+	font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+.contacts input {
+    width: 97%;
+}
+
+}
+
+.icons {
+	width: 100%;
+    float: left;
+	margin-bottom: 25px;
+	padding-left: 40px;
+    padding-right: 40px;
+	display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+.icons a {
+	margin-right: 15px;
+}
+
+.chat {
+	float: left;
+	width: 100%;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+.chat {
+    display: block;
+    opacity: 0;
+    height: 0px;
+}
+
+}
